@@ -13,7 +13,7 @@ const About = ({about}) => {
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
+      {role && <h2 className='about__role'> {role}.</h2>}
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
@@ -32,6 +32,8 @@ const About = ({about}) => {
                 href={social.github}
                 aria-label='github'
                 className='link link--icon'
+                target='_blank'
+                rel="noreferrer"
               >
                 <GitHubIcon />
               </a>
@@ -42,6 +44,8 @@ const About = ({about}) => {
                 href={social.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'
+                target='_blank'
+                rel="noreferrer"
               >
                 <LinkedInIcon />
               </a>

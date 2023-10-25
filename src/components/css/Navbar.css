@@ -18,7 +18,7 @@
     .nav__list {
       display: none;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       position: fixed;
       margin-left: 60%;
@@ -26,6 +26,7 @@
       width: 40%;
       height: 100%;
       z-index: 2;
+      padding-top: 100px;
     }
   
     .nav__list-item {

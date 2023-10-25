@@ -13,7 +13,6 @@ function Skills() {
                 <h2 >Skills</h2>
             </div>
             <div className="skillsContainer">
-                <div className="skill--scroll">
                         {skills.map((skill, index) => (
                             <div className="skill--box" key={index} style={skillBoxStyle}>
                                 <h3 key={skill.name}>
@@ -21,9 +20,6 @@ function Skills() {
                                 </h3>
                             </div>
                         ))}
-                        
-                    
-                </div>
             </div>
         </div>
     )

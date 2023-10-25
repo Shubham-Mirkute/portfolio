@@ -33,5 +33,6 @@
     .app .about {
       align-items: flex-start;
       margin-top: 2em;
+      padding: 10px;
     }
   }

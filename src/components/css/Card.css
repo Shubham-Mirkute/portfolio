@@ -25,6 +25,9 @@
   font-size: 1rem;
 }
 
+.card-link{
+  color: royalblue;
+}
 .card-stack {
   display: flex;
   flex-wrap: wrap;

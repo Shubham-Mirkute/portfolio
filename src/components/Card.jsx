@@ -25,6 +25,9 @@ export default function Card(props) {
             <div className="card" key={index}style={CardStyle}>
               <h2 className="card-title">{card.name}</h2>
               <p className="card-description">{card.description}</p>
+              <p className="card-link"><a href={card.link}target='_blank'
+                rel="noreferrer">{card.link}</a></p>
+
               <div className="card-stack">
                 {card.stack.map((tech, techIndex) => (
                   <span type='button' className='tech-btn 'key={techIndex}>

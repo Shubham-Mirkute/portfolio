@@ -4,7 +4,14 @@
   color: var(--clr-fg);
   background-color: var(--clr-bg);
 }
+::-webkit-scrollbar {
+  width: 0.1rem; /* Set the scrollbar width to be very small */
+  height: 0.1rem;
+}
 
+::-webkit-scrollbar-thumb {
+  background: transparent; /* Make the scrollbar thumb (drag handle) transparent */
+}
 .light {
   --clr-bg: #fcfcfc;
   --clr-bg-alt: #fff;
