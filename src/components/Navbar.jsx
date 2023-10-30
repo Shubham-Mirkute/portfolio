@@ -2,7 +2,6 @@ import { useContext, useState } from 'react'
 import Brightness2Icon from '@material-ui/icons/Brightness2'
 import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
-import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../theme'
 import { projects, skills } from '../portfolio'
 import './css/Navbar.css'
@@ -60,7 +59,7 @@ const Navbar = () => {
         className='btn btn--icon nav__hamburger'
         aria-label='toggle navigation'
       >
-        {showNavList ? <CloseIcon /> : <MenuIcon />}
+         <MenuIcon />
       </button>
     </nav>
   )
